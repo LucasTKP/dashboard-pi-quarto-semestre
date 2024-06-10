@@ -69,7 +69,7 @@ const HistogramTemperature = ({ temperatures }: { temperatures: number[] }) => {
   return (
     <div
       style={{ filter: "drop-shadow(0 1px 5px rgba(0, 0, 0, 0.3))" }}
-      className="w-[600px] h-[330px] p-[15px] flex flex-col items-center rounded-[8px] bg-[#F6F2E9]"
+      className="w-[600px] max-md:w-full lg:h-[330px] p-[15px] max-sm:p-[5px] flex flex-col items-center rounded-[8px] bg-[#F6F2E9]"
     >
       <Bar data={chartData} options={options} />
     </div>

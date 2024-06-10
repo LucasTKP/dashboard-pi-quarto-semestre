@@ -25,12 +25,12 @@ const PieChart = ({ trueCount, falseCount }: PieChartProps) => {
   return (
     <div
       style={{ filter: "drop-shadow(0 1px 5px rgba(0, 0, 0, 0.3))" }}
-      className="w-[400px] p-[15px] flex flex-col items-center rounded-[8px] bg-[#F6F2E9]"
+      className="min-w-[400px] max-xl:min-w-[320px] max-md:w-full p-[15px] flex flex-col items-center rounded-[8px] bg-[#F6F2E9]"
     >
       <h2 className="text-[20px] font-[600] text-[#666666]">
         Dados das Chuvas
       </h2>
-      <div className="w-[270px]">
+      <div className="w-[270px] max-sm:w-[200px]">
         <Pie data={chartData} />
       </div>
     </div>

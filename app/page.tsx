@@ -83,7 +83,7 @@ export default function Home() {
   }
 
   return (
-    <main className="bg-[#F6F2E9] w-full h-full min-h-screen flex flex-col px-[10%]">
+    <main className="bg-[#F6F2E9] w-full h-full min-h-screen flex flex-col px-[5%] max-md:px-[1%]">
       <Image
         src={"/logo.png"}
         width={200}
@@ -91,15 +91,17 @@ export default function Home() {
         alt="logo"
         className="self-center mt-[10px]"
       />
-      <h1 className="self-center font-[600] text-[40px]">DashBoard</h1>
-      <div className="flex items-start justify-between">
+      <h1 className="self-center font-[600] text-[40px] text-[#4F8E04]">
+        DashBoard
+      </h1>
+      <div className="flex items-start justify-between gap-x-[30px] max-lg:flex-wrap max-lg:justify-center max-lg:gap-y-[30px]">
         {trueCount > 0 && falseCount > 0 && (
           <PieChart trueCount={trueCount} falseCount={falseCount} />
         )}
         {humidities.length > 0 && <HistogramHumidity humidities={humidities} />}
       </div>
 
-      <div className="flex items-start justify-between mt-[30px]">
+      <div className="flex items-start justify-between mt-[30px] gap-x-[30px] max-lg:flex-wrap max-lg:items-center max-lg:gap-y-[30px] max-lg:flex-col-reverse">
         {statisticsData && <StatisticData statisticsData={statisticsData} />}
         {temperatures.length > 0 && (
           <HistogramTemperature temperatures={temperatures} />
