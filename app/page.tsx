@@ -92,7 +92,6 @@ export default function Home() {
         className="self-center mt-[10px]"
       />
       <h1 className="self-center font-[600] text-[40px]">DashBoard</h1>
-      <button onClick={() => getDatas()}>TESTE</button>
       <div className="flex items-start justify-between">
         {trueCount > 0 && falseCount > 0 && (
           <PieChart trueCount={trueCount} falseCount={falseCount} />
