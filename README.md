@@ -1,37 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dashboard - Agro Guard
+### Aplicação cujo objetivo é auxiliar os produtores na sua plantação, disponibilizando dados da temperatura e umidade.
 
-## Getting Started
+## Objetivo
+<p> Esse repositório concentra todas as informações do front-end que exibe a dashboard do projeto</p>
 
-First, run the development server:
+## Tecnologias
+<p> - Next.js </br>
+    - TypeScript </br>
+    - TailWind </br>
+    - Utilização de cache
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Imagens
+<img src="assets/image_dashboard_1.png"/></br>
+<img src="assets/image_dashboard_2.png"/></br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Teste o projeto
+bash
+# Clone este repositório
+$ git clone <https://github.com/LucasTKP/dashboard-pi-quarto-semestre/>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd dashboard-pi-quarto-semestre
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Instale as dependências
+$ npm install
 
-## Learn More
+# Execute a aplicação 
+$ next dev
 
-To learn more about Next.js, take a look at the following resources:
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deploy
+<p>O site está hospedado na Vercel e está disponível no link:</p>
+<p><a href="https://dashboard-pi-quarto-semestre.vercel.app/">Link Dashboard</a></br></p>
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# dashboard-pi-quarto-semestre
+## Desenvolvido
+<p>Todo o projeto foi desenvolvido pelos alunos: </br></p>
+<p>Cayk Andrade Magnani,</br>Guilherme de Carvalho Ferreira e</br> Lucas Gean dos Santos.</p>
