@@ -16,7 +16,7 @@
 <img src="assets/image_dashboard_2.png"/></br>
 
 ## Teste o projeto
-bash
+``` bash
 # Clone este repositório
 $ git clone <https://github.com/LucasTKP/dashboard-pi-quarto-semestre/>
 
@@ -30,7 +30,7 @@ $ npm install
 $ next dev
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
-
+```
 
 ## Deploy
 <p>O site está hospedado na Vercel e está disponível no link:</p>
